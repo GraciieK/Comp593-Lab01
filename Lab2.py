@@ -8,11 +8,11 @@ def main():
         'movie_list' : [ 
             {
                 'title' : 'lord of the rings',
-                'genre' : 'Fantasy Fiction'
+                'genre' : 'fantasy fiction'
             },
             {
                 'title' : 'harry potter and the goblet of fire',
-                'genre' : 'Fantasy, Adventure'
+                'genre' : 'fantasy, adventure'
             }
         ]
     }
@@ -20,7 +20,7 @@ def main():
     # TODO: Step 3 - Add another movie to the data structure
     new_movie = {
         'title' : 'nightmare before christmas',
-        'genre' : 'Animated'
+        'genre' : 'animated'
     }
     about_me['movie_list'].append(new_movie)
 
